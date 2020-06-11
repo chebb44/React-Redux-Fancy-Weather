@@ -1,0 +1,35 @@
+.today-block{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 5px;
+
+}
+.today-pic{
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: -25px;
+
+}
+.today-data{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.today-temp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  min-width: 110px;
+  font-size: 60px;
+}

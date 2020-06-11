@@ -1,0 +1,31 @@
+.fancy-weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fffffF;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  transition: background-image 1s ease;
+  div{
+    box-sizing: border-box;
+  }
+  p{
+    margin: 0;
+  }
+}
+
+
+
+
+
+

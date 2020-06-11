@@ -1,0 +1,35 @@
+.day-weather{
+  width: 32%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.day-weather-name{
+  font-size: 20px;
+  text-align: center;
+  height: 28px;
+  width: 100%;
+  @media screen and (max-width: 450px) {
+    font-size: 16px;
+  }
+}
+.day-weather-temp{
+  font-size: 25px;
+  min-width: 45px;
+  padding-right: 5px;
+  @media screen and (max-width: 450px) {
+    font-size: 20px;
+  }
+}
+.day-weather-pic{
+  height: 40px;
+  width: 40px;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: -10px;
+  @media screen and (max-width: 450px) {
+    background-size: 100%;
+  }
+}

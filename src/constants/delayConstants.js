@@ -1,0 +1,3 @@
+export const DELAY_FOR_TIME = 1000;
+export const RECOGNITION_WATCHDOG_DELAY = 5000;
+export const FLICKER_RESPONSE_WAIT = 3000;
